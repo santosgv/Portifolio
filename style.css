@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background:#1b2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+}
+
+main{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: #8880fe;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .alternative{
+    margin-top: 1rem;
+}
+
+main .alternative span{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #b9b9b8;
+}
+
+main .social-midia{
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+main .social-midia :first-child{
+   margin-left: 0px;
+}
+
+main .social-midia img{
+    width: 50px;
+    margin-left: 3rem;
+    padding: 10px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+main form span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input{
+    background: #b6ccda;
+    width: 300px;
+    height: 50px;
+    padding: 0.05rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #080a0e;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+main .bt-sub{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #9772dd;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main .bt-sub:hover{
+    
+    background: #842ad8;
+
+}
+
+section.images{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+
+section.images img{
+    width: 80%;
+}
