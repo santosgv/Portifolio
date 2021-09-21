@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 *.html=true
-*.css=true
+
 portifo
-Portifolio/index.html/ *
+Portifolio/*.html
